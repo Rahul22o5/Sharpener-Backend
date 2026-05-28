@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+//sample data acting as API
 const courses = [
   { id: 1, name: "Frontend", description: "HTML, CSS, JS, React" },
   { id: 2, name: "Backend", description: "Node.js, Express, MongoDB" }

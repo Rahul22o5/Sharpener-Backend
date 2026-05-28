@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+//sample data acting as API
 const students = [
   { id: 1, name: "Alice" },
   { id: 2, name: "Bob" },
