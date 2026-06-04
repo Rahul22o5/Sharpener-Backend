@@ -13,7 +13,7 @@ const connection=mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: password,
-    database: 'testdb'
+    database: 'sharpenertask'
 })
 
 connection.connect((err)=>{
